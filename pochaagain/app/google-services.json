@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "762169962248",
+    "firebase_url": "https://popo-d1bbb.firebaseio.com",
+    "project_id": "popo-d1bbb",
+    "storage_bucket": "popo-d1bbb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762169962248:android:75c7fede90304a6cae06bd",
+        "android_client_info": {
+          "package_name": "com.example.jaemoon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "762169962248-u6ujur0v0lusb26hr4psek61ibhcf7vt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARPJ-2c0BoqDxv2idrCz49-RmI-79m2o4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "762169962248-u6ujur0v0lusb26hr4psek61ibhcf7vt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762169962248:android:98fa524f81270e6bae06bd",
+        "android_client_info": {
+          "package_name": "com.moozzi.pochaagain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "762169962248-u6ujur0v0lusb26hr4psek61ibhcf7vt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARPJ-2c0BoqDxv2idrCz49-RmI-79m2o4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "762169962248-u6ujur0v0lusb26hr4psek61ibhcf7vt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762169962248:android:056966ee4a870417ae06bd",
+        "android_client_info": {
+          "package_name": "com.pocha.moozzipocha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "762169962248-u6ujur0v0lusb26hr4psek61ibhcf7vt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARPJ-2c0BoqDxv2idrCz49-RmI-79m2o4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "762169962248-u6ujur0v0lusb26hr4psek61ibhcf7vt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/레이2최상위"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B34B4B4B">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/레이2상위"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#4e4e4e"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/레이2상단"
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/레이2제목"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:shadowColor="#000000"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="3"
+                android:text="진 진 킹 의 시 약 가 게"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/레이2나가기"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="right|top"
+                android:layout_marginLeft="5sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_marginBottom="5sp"
+                 />
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/레이2중단"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:orientation="vertical">
+
+            <ScrollView
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="7">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/장보기스크롤1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <FrameLayout
+                            android:id="@+id/레이2요리1이미지레이"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4">
+
+                            <ImageView
+                                android:id="@+id/레이2요리1이미지"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="5sp"
+                                android:layout_marginTop="5sp"
+                                android:layout_marginRight="5sp"
+                                android:layout_marginBottom="5sp"
+                                android:layout_weight="3"
+                                tools:srcCompat="@tools:sample/avatars" />
+                        </FrameLayout>
+
+                        <LinearLayout
+                            android:id="@+id/레이2요리1정보레이"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="5"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/레이2요리1이름텍스트"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="10sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="TextView"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/레이2요리1가격텍스트"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="10sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="TextView"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/레이2요리1보유텍스트"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="10sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="TextView"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <FrameLayout
+                            android:id="@+id/레이2요리1버튼레이"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <Button
+                                android:id="@+id/레이2선택버튼1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center" />
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/장보기스크롤2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <FrameLayout
+                            android:id="@+id/레이2요리2이미지레이"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3">
+
+                            <ImageView
+                                android:id="@+id/레이2요리2이미지"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="5sp"
+                                android:layout_marginTop="5sp"
+                                android:layout_marginRight="5sp"
+                                android:layout_marginBottom="5sp"
+                                android:layout_weight="3"
+                                tools:srcCompat="@tools:sample/avatars" />
+                        </FrameLayout>
+
+                        <LinearLayout
+                            android:id="@+id/레이2요리2정보레이"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="6"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/레이2요리2이름텍스트"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="10sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="TextView"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/레이2요리2가격텍스트"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="10sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="TextView"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/레이2요리2보유텍스트"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="10sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="TextView"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <FrameLayout
+                            android:id="@+id/레이2요리2버튼레이"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <Button
+                                android:id="@+id/레이2선택버튼2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center" />
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/장보기스크롤3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <FrameLayout
+                            android:id="@+id/레이2요리3이미지레이"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3">
+
+                            <ImageView
+                                android:id="@+id/레이2요리3이미지"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="5sp"
+                                android:layout_marginTop="5sp"
+                                android:layout_marginRight="5sp"
+                                android:layout_marginBottom="5sp"
+                                android:layout_weight="3"
+                                tools:srcCompat="@tools:sample/avatars" />
+                        </FrameLayout>
+
+                        <LinearLayout
+                            android:id="@+id/레이2요리3정보레이"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="6"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/레이2요리3이름텍스트"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="10sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="TextView"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/레이2요리3가격텍스트"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="10sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="TextView"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/레이2요리3보유텍스트"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="10sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="TextView"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <FrameLayout
+                            android:id="@+id/레이2요리3버튼레이"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <Button
+                                android:id="@+id/레이2선택버튼3"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center" />
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/장보기스크롤4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <FrameLayout
+                            android:id="@+id/레이2요리4이미지레이"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3">
+
+                            <ImageView
+                                android:id="@+id/레이2요리4이미지"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="5sp"
+                                android:layout_marginTop="5sp"
+                                android:layout_marginRight="5sp"
+                                android:layout_marginBottom="5sp"
+                                android:layout_weight="3"
+                                tools:srcCompat="@tools:sample/avatars" />
+                        </FrameLayout>
+
+                        <LinearLayout
+                            android:id="@+id/레이2요리4정보레이"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="6"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/레이2요리4이름텍스트"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="10sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="TextView"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/레이2요리4가격텍스트"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="10sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="TextView"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/레이2요리4보유텍스트"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="10sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="TextView"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <FrameLayout
+                            android:id="@+id/레이2요리4버튼레이"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <Button
+                                android:id="@+id/레이2선택버튼4"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center" />
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/장보기스크롤5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <FrameLayout
+                            android:id="@+id/레이2요리5이미지레이"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3">
+
+                            <ImageView
+                                android:id="@+id/레이2요리5이미지"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="5sp"
+                                android:layout_marginTop="5sp"
+                                android:layout_marginRight="5sp"
+                                android:layout_marginBottom="5sp"
+                                android:layout_weight="3"
+                                tools:srcCompat="@tools:sample/avatars" />
+                        </FrameLayout>
+
+                        <LinearLayout
+                            android:id="@+id/레이2요리5정보레이"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="6"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/레이2요리5이름텍스트"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="10sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="TextView"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/레이2요리5가격텍스트"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="10sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="TextView"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/레이2요리5보유텍스트"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="10sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="TextView"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <FrameLayout
+                            android:id="@+id/레이2요리5버튼레이"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <Button
+                                android:id="@+id/레이2선택버튼5"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center" />
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/장보기스크롤6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <FrameLayout
+                            android:id="@+id/레이2요리6이미지레이"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3">
+
+                            <ImageView
+                                android:id="@+id/레이2요리6이미지"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="5sp"
+                                android:layout_marginTop="5sp"
+                                android:layout_marginRight="5sp"
+                                android:layout_marginBottom="5sp"
+                                android:layout_weight="3"
+                                tools:srcCompat="@tools:sample/avatars" />
+                        </FrameLayout>
+
+                        <LinearLayout
+                            android:id="@+id/레이2요리6정보레이"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="6"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/레이2요리6이름텍스트"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="10sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="TextView"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/레이2요리6가격텍스트"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="10sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="TextView"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/레이2요리6보유텍스트"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="10sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="TextView"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <FrameLayout
+                            android:id="@+id/레이2요리6버튼레이"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <Button
+                                android:id="@+id/레이2선택버튼6"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center" />
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/장보기스크롤7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <FrameLayout
+                            android:id="@+id/레이2요리7이미지레이"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3">
+
+                            <ImageView
+                                android:id="@+id/레이2요리7이미지"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="5sp"
+                                android:layout_marginTop="5sp"
+                                android:layout_marginRight="5sp"
+                                android:layout_marginBottom="5sp"
+                                android:layout_weight="3"
+                                tools:srcCompat="@tools:sample/avatars" />
+                        </FrameLayout>
+
+                        <LinearLayout
+                            android:id="@+id/레이2요리7정보레이"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="6"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/레이2요리7이름텍스트"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="10sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="TextView"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/레이2요리7가격텍스트"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="10sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="TextView"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/레이2요리7보유텍스트"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="10sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="TextView"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <FrameLayout
+                            android:id="@+id/레이2요리7버튼레이"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <Button
+                                android:id="@+id/레이2선택버튼7"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center" />
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/장보기스크롤8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <FrameLayout
+                            android:id="@+id/레이2요리8이미지레이"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3">
+
+                            <ImageView
+                                android:id="@+id/레이2요리8이미지"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="5sp"
+                                android:layout_marginTop="5sp"
+                                android:layout_marginRight="5sp"
+                                android:layout_marginBottom="5sp"
+                                android:layout_weight="3"
+                                tools:srcCompat="@tools:sample/avatars" />
+                        </FrameLayout>
+
+                        <LinearLayout
+                            android:id="@+id/레이2요리8정보레이"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="6"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/레이2요리8이름텍스트"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="10sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="TextView"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/레이2요리8가격텍스트"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="10sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="TextView"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/레이2요리8보유텍스트"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="10sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="TextView"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <FrameLayout
+                            android:id="@+id/레이2요리8버튼레이"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <Button
+                                android:id="@+id/레이2선택버튼8"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center" />
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/장보기스크롤9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <FrameLayout
+                            android:id="@+id/레이2요리9이미지레이"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3">
+
+                            <ImageView
+                                android:id="@+id/레이2요리9이미지"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="5sp"
+                                android:layout_marginTop="5sp"
+                                android:layout_marginRight="5sp"
+                                android:layout_marginBottom="5sp"
+                                android:layout_weight="3"
+                                tools:srcCompat="@tools:sample/avatars" />
+                        </FrameLayout>
+
+                        <LinearLayout
+                            android:id="@+id/레이2요리9정보레이"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="6"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/레이2요리9이름텍스트"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="10sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="TextView"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/레이2요리9가격텍스트"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="10sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="TextView"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/레이2요리9보유텍스트"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="10sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="TextView"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <FrameLayout
+                            android:id="@+id/레이2요리9버튼레이"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <Button
+                                android:id="@+id/레이2선택버튼9"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center" />
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/장보기스크롤10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <FrameLayout
+                            android:id="@+id/레이2요리10이미지레이"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3">
+
+                            <ImageView
+                                android:id="@+id/레이2요리10이미지"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="5sp"
+                                android:layout_marginTop="5sp"
+                                android:layout_marginRight="5sp"
+                                android:layout_marginBottom="5sp"
+                                android:layout_weight="3"
+                                tools:srcCompat="@tools:sample/avatars" />
+                        </FrameLayout>
+
+                        <LinearLayout
+                            android:id="@+id/레이2요리10정보레이"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="6"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/레이2요리10이름텍스트"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="10sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="TextView"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/레이2요리10가격텍스트"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="10sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="TextView"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/레이2요리10보유텍스트"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginLeft="10sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="TextView"
+                                android:textColor="#FFFFFF"
+                                android:textSize="18sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <FrameLayout
+                            android:id="@+id/레이2요리10버튼레이"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1">
+
+                            <Button
+                                android:id="@+id/레이2선택버튼10"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center" />
+                        </FrameLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/레이2하단"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <SeekBar
+                    android:id="@+id/레이2식바"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:progress="1" />
+
+                <TextView
+                    android:id="@+id/레이2식바수량텍스트1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:shadowColor="#000000"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="3"
+                    android:text="37"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+            </FrameLayout>
+
+            <Button
+                android:id="@+id/레이2작동버튼"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#FFA923"
+                android:gravity="center"
+                android:text="구 매"
+                android:textColor="#4e4e4e"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

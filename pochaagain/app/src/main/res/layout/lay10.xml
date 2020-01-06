@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/레이10최상위"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B34B4B4B">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/레이10상위"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="#4e4e4e"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/레이10상단"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/레이10제목"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:shadowColor="#000000"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="3"
+                android:text="미 스 터 쉐 프"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/레이10나가기"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="right|top"
+                android:layout_marginLeft="5sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_marginBottom="5sp" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/레이10중단"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/레이10정보레이1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        android:orientation="horizontal">
+
+                        <FrameLayout
+                            android:id="@+id/레이10이미지레이1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="2">
+
+                            <ImageView
+                                android:id="@+id/레이10이미지1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="10sp"
+                                android:layout_marginTop="10sp"
+                                android:layout_marginRight="10sp"
+                                android:layout_marginBottom="10sp"
+                                tools:srcCompat="@tools:sample/avatars" />
+
+                            <TextView
+                                android:id="@+id/레이10정보텍스트1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:textColor="#FFFFFF"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+
+                        </FrameLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.7"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="5sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="아이디"
+                                android:textColor="#ffa923"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="5sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="레벨"
+                                android:textColor="#ffa923"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="5sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="승점"
+                                android:textColor="#ffa923"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.3"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/레이10정보텍스트2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="5sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#E91E63"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="?"
+                                android:textColor="#FFFFFF"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/레이10정보텍스트3"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="5sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="?"
+                                android:textColor="#FFFFFF"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/레이10정보텍스트4"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="5sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="?"
+                                android:textColor="#FFFFFF"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1">
+
+                            <ProgressBar
+                                android:id="@+id/레이10프로그레스1"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="30sp"
+                                android:layout_marginRight="30sp"
+                                android:layout_weight="1"
+                                android:progress="50" />
+
+                            <TextView
+                                android:id="@+id/레이10정보텍스트5"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="0"
+                                android:textColor="#ffffff"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+                        </FrameLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/레이10정보레이2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="3"
+                        android:orientation="horizontal">
+
+                        <FrameLayout
+                            android:id="@+id/레이10이미지레이2"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:layout_weight="2">
+
+                            <ImageView
+                                android:id="@+id/레이10이미지2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="10sp"
+                                android:layout_marginTop="10sp"
+                                android:layout_marginRight="10sp"
+                                android:layout_marginBottom="10sp"
+                                tools:srcCompat="@tools:sample/avatars" />
+
+                            <TextView
+                                android:id="@+id/레이10정보텍스트6"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:textColor="#FFFFFF"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+
+                        </FrameLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.7"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="5sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="아이디"
+                                android:textColor="#ffa923"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="5sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="레벨"
+                                android:textColor="#ffa923"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="5sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="승점"
+                                android:textColor="#ffa923"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.3"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/레이10정보텍스트7"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="5sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="?"
+                                android:textColor="#FFFFFF"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/레이10정보텍스트8"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="5sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="?"
+                                android:textColor="#FFFFFF"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/레이10정보텍스트9"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_marginLeft="5sp"
+                                android:layout_weight="1"
+                                android:gravity="center|left"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="?"
+                                android:textColor="#FFFFFF"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <FrameLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1">
+
+                            <ProgressBar
+                                android:id="@+id/레이10프로그레스2"
+                                style="?android:attr/progressBarStyleHorizontal"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="30sp"
+                                android:layout_marginRight="30sp"
+                                android:layout_weight="1"
+                                android:progress="50" />
+
+                            <TextView
+                                android:id="@+id/레이10정보텍스트10"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:gravity="center"
+                                android:shadowColor="#000000"
+                                android:shadowDx="1"
+                                android:shadowDy="1"
+                                android:shadowRadius="3"
+                                android:text="0"
+                                android:textColor="#FFFFFF"
+                                android:textSize="16sp"
+                                android:textStyle="bold" />
+                        </FrameLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/레이10하단"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#FFa923"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/레이10작동버튼2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:gravity="center"
+                    android:text="랭 킹"
+                    android:textColor="#4e4e4e"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/레이10작동버튼"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#ffa923"
+                    android:gravity="center"
+                    android:text="시 작"
+                    android:textColor="#4e4e4e"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/레이10작동버튼3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#00000000"
+                    android:gravity="center"
+                    android:text="보 상"
+                    android:textColor="#4e4e4e"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/레이10로티레이"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/랭크1레이"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible">
+
+        <include
+            layout="@layout/rank"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/랭크2레이"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible">
+
+        <include
+            layout="@layout/rank2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.moozzi.pochaagain">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+
+    <application
+
+        android:allowBackup="true"
+        android:icon="@drawable/appicon"
+        android:label="유령포차"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+
+        </activity>
+        <receiver android:name = ".appNetwork">
+            <intent-filter>
+                <action android:name="android.net.conn.BACKGROUND_DATA_SETTING_CHANGED"/>
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".register">
+
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8598333709375599~4232467245"/>
+    </application>
+
+</manifest>

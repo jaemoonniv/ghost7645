@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="돈텍스트" type="id" />
+    <item name="명성텍스트" type="id" />
+    <item name="메뉴스크롤" type="id" />
+    <item name="캐쉬스크롤" type="id" />
+    <item name="메뉴버튼" type="id" />
+    <item name="메뉴버튼1" type="id" />
+    <item name="메뉴버튼2" type="id" />
+    <item name="메뉴버튼3" type="id" />
+    <item name="메뉴버튼4" type="id" />
+    <item name="메뉴버튼5" type="id" />
+    <item name="메뉴버튼6" type="id" />
+    <item name="메뉴버튼7" type="id" />
+    <item name="메뉴버튼8" type="id" />
+    <item name="메뉴버튼9" type="id" />
+    <item name="최상위" type="id" />
+</resources>

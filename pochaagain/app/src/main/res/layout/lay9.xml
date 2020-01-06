@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/레이9최상위"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B34B4B4B">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/레이9상위"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#4e4e4e"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/레이9상단"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/레이9제목"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:shadowColor="#000000"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="3"
+                android:text="짱 이 의 암 시 장"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/레이9나가기"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="right|top"
+                android:layout_marginLeft="5sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_marginBottom="5sp"
+                 />
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/레이9중단"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/레이9이미지레이"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="2">
+
+                <ImageView
+                    android:id="@+id/레이9이미지"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="5sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_marginBottom="5sp"
+                    tools:srcCompat="@tools:sample/avatars" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/레이9정보레이"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:shadowColor="#000000"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="3"
+                        android:text="이름 :"
+                        android:textColor="#ffa923"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:shadowColor="#000000"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="3"
+                        android:text="가격 :"
+                        android:textColor="#ffa923"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:shadowColor="#000000"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="3"
+                        android:text="수량 :"
+                        android:textColor="#ffa923"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:shadowColor="#000000"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="3"
+                        android:text="설명 :"
+                        android:textColor="#ffa923"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:shadowColor="#000000"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="3"
+                        android:text="보유솜 :"
+                        android:textColor="#ffa923"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/레이9정보텍스트1"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginRight="30sp"
+                        android:gravity="center"
+                        android:shadowColor="#000000"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="3"
+                        android:text="TextView"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/레이9정보텍스트2"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginRight="30sp"
+                        android:shadowColor="#000000"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="3"
+                        android:text="TextView"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/레이9정보텍스트3"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginRight="30sp"
+                        android:shadowColor="#000000"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="3"
+                        android:text="TextView"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/레이9정보텍스트4"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginRight="30sp"
+                        android:shadowColor="#000000"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="3"
+                        android:text="TextView"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/레이9정보텍스트5"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginRight="30sp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:shadowColor="#000000"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="3"
+                        android:text="TextView"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/레이9하단"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <SeekBar
+                android:id="@+id/레이9식바"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:max="20" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#FFa923"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/레이9작동버튼"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#FFA923"
+                    android:gravity="center"
+                    android:text="구 매"
+                    android:textColor="#4e4e4e"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/레이9작동버튼2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#FFA923"
+                    android:gravity="center"
+                    android:text="판 매"
+                    android:textColor="#4e4e4e"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

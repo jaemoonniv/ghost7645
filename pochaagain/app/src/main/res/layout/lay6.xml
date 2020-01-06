@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/레이6최상위"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B34B4B4B">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/레이6상위"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#4e4e4e"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/레이6상단"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/레이6제목"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:shadowColor="#000000"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="3"
+                android:text="(주) 무 뭉 애 드"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/레이6나가기"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="right|top"
+                android:layout_marginLeft="5sp"
+                android:layout_marginTop="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_marginBottom="5sp"
+                 />
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/레이6중단"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:id="@+id/레이6이미지레이"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_weight="2">
+
+                <ImageView
+                    android:id="@+id/레이6이미지"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5sp"
+                    android:layout_marginTop="5sp"
+                    android:layout_marginRight="5sp"
+                    android:layout_marginBottom="5sp"
+                    tools:srcCompat="@tools:sample/avatars" />
+            </FrameLayout>
+
+            <LinearLayout
+                android:id="@+id/레이6정보레이"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:shadowColor="#000000"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="3"
+                        android:text="이름 :"
+                        android:textColor="#ffa923"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:shadowColor="#000000"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="3"
+                        android:text="단계 :"
+                        android:textColor="#ffa923"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:shadowColor="#000000"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="3"
+                        android:text="최소추가 :"
+                        android:textColor="#ffa923"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:shadowColor="#000000"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="3"
+                        android:text="최대추가 :"
+                        android:textColor="#ffa923"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:shadowColor="#000000"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="3"
+                        android:text="비용 :"
+                        android:textColor="#ffa923"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center|right"
+                        android:shadowColor="#000000"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="3"
+                        android:text="확률 :"
+                        android:textColor="#ffa923"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/레이6정보텍스트1"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginRight="30sp"
+                        android:gravity="center"
+                        android:shadowColor="#000000"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="3"
+                        android:text="TextView"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/레이6정보텍스트2"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginRight="30sp"
+                        android:gravity="center"
+                        android:shadowColor="#000000"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="3"
+                        android:text="TextView"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/레이6정보텍스트3"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginRight="30sp"
+                        android:gravity="center"
+                        android:shadowColor="#000000"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="3"
+                        android:text="TextView"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/레이6정보텍스트4"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginRight="30sp"
+                        android:gravity="center"
+                        android:shadowColor="#000000"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="3"
+                        android:text="TextView"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/레이6정보텍스트5"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:layout_marginRight="30sp"
+                        android:gravity="center"
+                        android:shadowColor="#000000"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="3"
+                        android:text="TextView"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/레이6정보텍스트6"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_marginRight="30sp"
+                        android:shadowColor="#000000"
+                        android:shadowDx="1"
+                        android:shadowDy="1"
+                        android:shadowRadius="3"
+                        android:text="TextView"
+                        android:textColor="#FFFFFF"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/레이6하단"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <SeekBar
+                android:id="@+id/레이6식바"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:max="21" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#FFa923"
+                android:orientation="horizontal">
+
+                <Switch
+                    android:id="@+id/레이6스위치1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="보조"
+                    android:textColor="#4e4e4e"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/레이6작동버튼"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#FFA923"
+                    android:gravity="center"
+                    android:text="강 화"
+                    android:textColor="#4e4e4e"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <Switch
+                    android:id="@+id/레이6스위치2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="보호"
+                    android:textColor="#4e4e4e"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>
